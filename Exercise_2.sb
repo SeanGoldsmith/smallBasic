@@ -1,0 +1,15 @@
+currentHour  = Clock.Hour
+london = currentHour + 8
+newYork = currentHour + 3
+
+If (london >= 9 And london < 21) Then 
+  TextWindow.WriteLine("The London office is OPEN")
+Else
+  TextWindow.WriteLine("The London office is CLOSED")
+EndIf
+
+If (newYork >= 9 And newYork < 21) Then 
+  TextWindow.WriteLine("The New York office is OPEN")
+Else
+  TextWindow.WriteLine("The New York office is CLOSED")
+EndIf

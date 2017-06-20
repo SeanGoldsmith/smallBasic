@@ -1,0 +1,12 @@
+GraphicsWindow.Width = 500
+GraphicsWindow.Height = 500
+
+Controls.AddButton("Copy File",248,240)
+Controls.ButtonClicked = copy
+
+Sub copy
+  timeCheck = (Clock.Hour + 8)
+  If (timeCheck >= 9 And timeCheck < 21) Then
+    File.CopyFile("C:\Users\My Elite\Desktop\Exer3A\Exer3.txt","C:\Users\My Elite\Desktop\Exer3B")
+  EndIf
+EndSub

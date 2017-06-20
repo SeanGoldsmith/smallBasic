@@ -1,0 +1,1 @@
+File.CopyFile("C:\Users\My Elite\Desktop\Exer3A\Exer3.txt","C:\Users\My Elite\Desktop\Exer3B")

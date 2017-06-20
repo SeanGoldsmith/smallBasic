@@ -1,0 +1,6 @@
+timeCheck = (Clock.Hour + 8)
+If (timeCheck >= 9 And timeCheck < 21) Then
+  File.CopyFile("C:\Users\My Elite\Desktop\Exer3A\Exer3.txt","C:\Users\My Elite\Desktop\Exer3B")
+EndIf
+
+  

@@ -1,0 +1,11 @@
+TextWindow.Write("Please enter a number: ")
+firstNumber = TextWindow.ReadNumber()
+TextWindow.Write("Please enter one more number: ")
+secondNumber = TextWindow.ReadNumber()
+If (firstNumber > secondNumber) Then
+  TextWindow.WriteLine("The smaller of those two numbers is " + secondNumber)
+ElseIf (secondNumber > firstNumber) then
+  TextWindow.WriteLine("The smaller of those two numbers is " + firstNumber)
+Else 
+  TextWindow.WriteLine("These two numbers are equal!")
+EndIf
